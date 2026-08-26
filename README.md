@@ -42,29 +42,6 @@
 | `F4` | Включение / выключение кликера (по умолчанию) |
 | `Любая буква/цифра` | Задаёт кастомную клавишу кликера |
 
-## Сборка из исходников
-
-Требования: **Visual Studio 2019+** с поддержкой C++17
-
-```bash
-cd cpp
-build.bat
-```
-
-Или откройте `cpp/main.cpp` в Visual Studio и соберите в режиме Release.
-
-## Структура проекта
-
-```
-UltimaxClicker/
-├── cpp/
-│   ├── main.cpp          # Полный исходный код (single-file)
-│   └── build.bat         # Скрипт сборки
-├── settings.json         # Настройки (автоматически в Документах/UltimaxClickerByNureks/)
-├── profiles.json         # Профили (автоматически в Документах/UltimaxClickerByNureks/)
-└── README.md
-```
-
 ## Как использовать
 
 1. Запустите `UltimaxClicker.exe`
